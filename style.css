@@ -81,7 +81,7 @@ header {
    =====================================
 */
 section {
-    min-height: 100vh;
+    min-height: 60vh;
     padding: 120px 20px; /* Adiciona padding lateral para telas maiores */
     text-align: center;
     font-size: 26px;
@@ -429,3 +429,4 @@ footer p {
         text-align: center;
     }
 }
+
