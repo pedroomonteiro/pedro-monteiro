@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Monteiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> <!--cabeçalho-->>
+        <div class="logo">
+            <img src="pedro.jpeg" alt="Foto do Pedro" class="logo-img">
+            <span>Pedro Monteiro</span>
+        </div>
+        <nav class="menu"> <!--Menu com links-->>
+            <a href="#sobre" class="btnscroll">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h1>Olá, Eu Sou o Pedro Monteiro </h1>
+
+            <p>Eu sou um estudante de Engenharia de Software e aqui mostro mais sobre mim</p>
+            <a href="#sobre" class="btnscroll">Sobre Mim</a> <!--botao que vai para a pag sobre mim-->>
+        </section>
+        <section id="sobre"> 
+            <div class="sobre-container">
+                <div class="lado-esquerdo">
+                    <h2>Quem Sou?</h2>
+                    <p>Sou estudante de Engenharia de Software, apaixonado por aprender novas tecnologias e desenvolver
+                        minhas habilidades em programação. Estou sempre em busca de novos desafios e oportunidades para
+                        crescer na área de tecnologia, estou aberto a oportunidades pegue o meu contato.
+                    </p>
+                </div>
+                <div class="lado-direito">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li><strong>Linguagens & Ferramentas:</strong> HTML, CSS, Excel</li>
+                        <li><strong>Idiomas:</strong> Inglês (básico)</li>
+                        <li><strong>Soft Skills:</strong> Proatividade, Trabalho em equipe, Comunicação</li>
+                        <li><strong>Interesses:</strong> Inteligência Artificial, Automação</li>
+                    </ul>
+                    <a href="#formacao" class="btnscroll">Formação</a> <!--botao que vai para a pag formação-->>
+                </div>
+            </div>
+        </section>
+        <section id="formacao">
+            <h2>Formação Acadêmica</h2>
+            <div class="formacao-container"> <!--container para estilizar no css-->>
+                <div class="curso">
+                    <h3>🎓 Engenharia de Software</h3>
+                    <p>Universidade UNINTER – Em andamento</p>
+                </div>
+                <div class="curso">
+                    <h3>🌍 Inglês Basico</h3>
+                    <p>UNINTER U-BEST – Concluído</p>
+                </div>
+                <div class="curso">
+                    <h3>💻 Curso de Html e CSS</h3>
+                    <p>Curso em Video</p>
+                </div>
+                <div class="curso">
+                    <h3>💻 Curso de Excel</h3>
+                    <p>Curso em Video – 2024</p>
+                </div>
+                <div class="curso">
+                    <h3>💻 Ensino Médio</h3>
+                    <p>Completo – 2024</p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="portfolio-container">
+                <div class="projeto">
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 1</h3>
+                    <p>Pagina feita na aula de Aplicação Web.</p>
+                    <img src="projeto.jpeg" alt="foto do projeto">
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Meus Contatos</h2>
+            <div class="contatos">
+                <div class="item">
+                    <h3>Telefone</h3>
+                    <a href="tel:+5511972712122">11 97271-2122</a>
+                </div>
+
+                <div class="item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/pedro-monteiro-6a6828357" target="_blank">
+                        <img src="linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+
+            <form class="form-contato" action="mailto:pedroandrademonteiro5@gmail.com" method="post"
+                enctype="text/plain">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu email" required>
+                <textarea name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2025 Pedro Monteiro. Todos os direitos reservados.</p> <!--Rodapé-->>
+            <div class="footer-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#formacao">Formação</a>
+                <a href="#portfolio">Portfólio</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/pedro-monteiro-6a6828357" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="mailto:pedroandrademonteiro5@gmail.com">pedroandrademonteiro5@gmail.com</a>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
